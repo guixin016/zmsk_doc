@@ -1,4 +1,4 @@
-### jetty部署文档###
+### jetty部署文档 ###
 -----
 #### 1、下载安装jetty
 
@@ -20,10 +20,10 @@ wget http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.2.
 
 1、创建存放应用程序的目录
 
-应用程序一般放在/home/pft 目录下，目录不存在则创建
+应用程序一般放在/home/zmsk 目录下，目录不存在则创建
 
 ```
-# cd /home/pft
+# cd /home/zmsk
 ```
 
 创建文件目录，目录名称规范(项目名_base)
@@ -43,6 +43,6 @@ wget http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.2.
 
 切换到logs文件目录下启动程序
 ```
-# cd /home/pft/pft_rest_base/logs 
-# nohup java -jar /usr/local/jetty9/start.jar jetty.base=/home/pft/pft-rest-base &
+# cd /home/zmsk/zmsk_rest_base/logs 
+# nohup java -jar /usr/local/jetty9/start.jar jetty.base=/home/zmsk/zmsk-rest-base &
 ```
